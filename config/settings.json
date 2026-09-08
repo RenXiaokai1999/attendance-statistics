@@ -1,0 +1,15 @@
+{
+  "attendance_root": "E:\\山西省地震局工作\\大同台\\考勤",
+  "manual_source_root": "E:\\山西省地震局工作\\大同台\\考勤\\24h值班和预处理",
+  "wechat_image_root": "C:\\Users\\11789\\Documents\\WXWork\\1688854483903422\\Cache\\Image",
+  "template_path": "E:\\山西省地震局工作\\大同台\\考勤\\2026年8月测试模板\\202608DTZ考勤表.doc",
+  "login_url": "https://cloud.hysoon.com/account/logon?fromUrl=/fkdevice/index?t=1735785903123",
+  "records_url": "https://cloud.hysoon.com/usercheck/index",
+  "credential_target": "attendance-statistics/hysoon",
+  "tesseract_path": "D:\\4Environment\\tools\\tesseract.exe",
+  "schedule": {
+    "day": 1,
+    "time": "15:00",
+    "timezone": "Asia/Hong_Kong"
+  }
+}

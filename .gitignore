@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地运行结果和考勤数据
+attendance-statistics-workspace/
+output/
+*.log
+
+# 编辑器及系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

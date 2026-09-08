@@ -1,0 +1,18 @@
+{
+  "skill": "attendance-statistics",
+  "evaluated_month": "202608",
+  "result": "passed_with_external_blockers",
+  "checks": [
+    {"name": "月份路径与文件命名", "status": "passed"},
+    {"name": "签卡同人同日去重", "status": "passed", "people": 20, "date_columns": 31},
+    {"name": "24h零报告", "status": "passed", "reports": 31, "missing_dates": 0, "conflicts": 0},
+    {"name": "周末预处理白班", "status": "passed", "counted_dates": 10, "conflicts": 0},
+    {"name": "企业微信图片筛选", "status": "passed", "images_after_exact_dedup": 1569, "ocr_candidates": 114, "reviewed_records": 76},
+    {"name": "Word写入与重开", "status": "passed", "rows": 20, "new_person": "李文超"},
+    {"name": "Excel颜色", "status": "passed", "no_fill": 232, "red": 324, "comp_leave_green": 47, "leave_black": 11, "official_out_blue": 6},
+    {"name": "单元测试", "status": "passed", "tests": 36},
+    {"name": "Skill结构校验", "status": "passed"},
+    {"name": "网站下载联调", "status": "blocked", "reason": "cloud.hysoon.com 返回 ERR_SSL_PROTOCOL_ERROR"},
+    {"name": "覆盖目标Word", "status": "blocked", "reason": "目标 .doc 正被 WPS 占用，已另存最终副本"}
+  ]
+}
